@@ -13,6 +13,7 @@ dados da conexão está no arquivo connection.js
 |comentario|  char(200) |  true   |              |
 
 # Para executar
+  - abrir o arquivo index.js e adicionar a API_KEY e CREDENTIAL_URL da IBM watson na constante "textToSpeech"
   - abrir o prompt 
   - navegar até o diretório do projeto
   - digitar o comando nodemon (caso ja tenha instalado) ou npm start
