@@ -9,9 +9,9 @@ const fs = require('fs');
 
 const textToSpeech = new TextToSpeechV1({
   authenticator: new IamAuthenticator({
-    apikey: 'Hw3EpR9FIaYxBXlo7rfsZYicq4Rshg91YPZd1wP32PTh',
+    apikey: '{API_KEY}',
   }),
-  url: 'https://api.us-south.text-to-speech.watson.cloud.ibm.com/instances/4e310498-8e62-4fd1-b07b-c8733e83b603',
+  url: '{CREDENTIAL_URL}',
 });
 
 /* GET home page. */
