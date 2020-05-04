@@ -1,0 +1,20 @@
+extends layout
+
+mixin component(text)
+  div.audioText_list
+    div.comment= text
+    div.btn_ouvir
+      button.play ouvir
+
+block content
+  div.container
+    div.container_audioText
+      h1.container_title Comentário
+      textarea.audio_text(name='comentario')
+      button.btn_audioText(type='submit') Cadastrar
+    div.divisor
+    div.show_list
+      h1.container_title Comentários!
+      div.comentarios_list
+        for n in data
+          +component(n.comentario)

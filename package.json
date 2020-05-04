@@ -1,0 +1,25 @@
+{
+  "name": "teste",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "audio-speaker": "^1.5.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "ibm-watson": "^5.5.0",
+    "jquery": "^3.5.0",
+    "morgan": "~1.9.1",
+    "mysql": "^2.18.1",
+    "node-gyp": "^6.1.0",
+    "nodemon": "^2.0.3",
+    "pug": "^2.0.4",
+    "speaker": "^0.5.1",
+    "watson-speech": "^0.38.0",
+    "wav": "^1.0.2"
+  }
+}

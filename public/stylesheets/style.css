@@ -1,0 +1,87 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.container{
+  border: none;
+  border-radius: 5px;
+  width:100%;
+  height:100%;
+  display: grid;
+  background-color: #f5f5f5;
+  grid-template-columns: 1fr 3px 1fr;
+  grid-column-gap:3em;
+  padding: 2em;
+  color: #3c3c3c;
+}
+.container_audioText{
+  display: grid;
+  grid-template-rows: 60px 150px 50px;
+  grid-row-gap: 1em;
+}
+.container_title{
+ color: #3c3c3c;
+}
+.audio_text{
+   border:3px solid #898989;
+   resize:none;
+}
+
+.btn_audioText{
+  font-weight: bold;
+  border:3px solid #898989;
+  border-radius:10px;
+  font-size: 1.5em;
+  width: 100%;
+  color: #3c3c3c;
+  background-color: #dadada;
+}
+
+.play{
+  font-weight: bold;
+  border:3px solid #898989;
+  border-radius:10px;
+  font-size: 1.5em;
+  width: 100%;
+  color: #3c3c3c;
+  background-color: #dadada;
+}
+.divisor{
+  height: 100%;
+  background: #898989;
+  border:1px solid #898989;
+}
+
+.show_list{
+  display: grid;
+  grid-row-gap: 1em;
+}
+.audioText_list{
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) 150px;
+  grid-column-gap: 1em;
+  height: 80px;
+}
+.comment{
+  font-size: 1.5em;
+  font-weight: bold;
+  overflow-wrap: break-word;
+  color: #999999;
+}
+.btn_ouvir{
+  margin: auto 0px;
+  display: flex;
+  width:100%
+  justify-content: center;
+}
+
+.comentarios_list{
+  display: grid;
+  overflow-y: scroll;
+  max-height: 400px;
+}
