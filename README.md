@@ -13,7 +13,7 @@ dados da conexão está no arquivo connection.js
 |comentario|  char(200) |  true   |              |
 
 # Para executar
-  - abrir o promt 
+  - abrir o prompt 
   - navegar até o diretório do projeto
   - digitar o comando nodemon (caso ja tenha instalado) ou npm start
   - abrir o browser http://localhost:3000/
