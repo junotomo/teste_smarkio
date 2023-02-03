@@ -19,7 +19,7 @@
     "nodemon": "^2.0.3",
     "pug": "^3.0.1",
     "speaker": "^0.5.1",
-    "watson-speech": "^0.38.0",
+    "watson-speech": "^0.41.0",
     "wav": "^1.0.2"
   }
 }
